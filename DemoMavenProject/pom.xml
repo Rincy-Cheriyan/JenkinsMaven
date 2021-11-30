@@ -15,7 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	
+	<build>
+    <pluginManagement>
+	<plugins>
 	<plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -31,7 +33,7 @@
     <mainClass>MyProject.App</mainClass>
     
   </configuration>
-</plugin>
+		</plugin></plugins></pluginManagement></build>
 
   
   <properties>
